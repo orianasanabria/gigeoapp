@@ -1,0 +1,16 @@
+@import 'nav';
+@import 'header';
+@import 'main';
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+}
+
+
+@media (max-width: 768px) {
+    .container{
+        max-width: 500px;
+    }
+}

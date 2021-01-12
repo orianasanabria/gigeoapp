@@ -1,0 +1,20 @@
+.profile__buttons {
+    &__message {
+        font-size: $small;
+        background-color: $light-blue;
+        border: none;
+        color: $white;
+        padding: 6px 20px;
+        font-family: $montserrat;
+    }
+
+    &__follow {
+        font-size: $small;
+        background-color: $coral;
+        border: none;
+        color: $white;
+        padding: 6px 20px;
+        margin-left: 10px;
+        font-family: $montserrat;
+    }
+}
